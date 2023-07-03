@@ -15,7 +15,7 @@ def __repr__(self):
 
 class LinkedList:
 """
-singly lnked list
+singly linked list
 """
   def __init__(self):
     self.head= None
@@ -24,10 +24,10 @@ singly lnked list
     retrun self.head==None
 
   def size(self):
-    """"
+    """
     returns the number of nodes in the list
     takes n(0) time
-    """"
+    """
    
     current= self.head
     count=0
@@ -47,4 +47,3 @@ def add(self,data):
   new_node.next_node=self.head
   self.head= new_node
 
- 
